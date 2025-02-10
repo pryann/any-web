@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms2</title>
+  </head>
+  <body>
+    <form method="POST" enctype="multipart/form-data">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="terms">Please acept terms and ...</label>
+        <input type="checkbox" name="terms" id="terms" checked />
+      </div>
+      <div>
+        <label for="cv">Upload CV</label>
+        <input type="file" name="cv" id="cv" />
+      </div>
+      <div>
+        <p>Sex</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="sex" value="male" checked />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="sex" value="female" />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea cols="50" rows="5" name="message" id="message" disabled></textarea>
+      </div>
+      <div>
+        <label for="hobbies">Hobbies</label>
+        <select name="hobbies" id="hobbies" size="7" multiple>
+          <optgroup label="Pub sports">
+            <option value="darts" selected>Darts</option>
+            <option value="drinking">Drinking</option>
+            <option value="fight">Fight</option>
+          </optgroup>
+          <optgroup label="Cultural activities">
+            <option value="reading">Reading</option>
+            <option value="theater">Theater</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <input type="button" value="Prog. btn" />
+      </div>
+      <div>
+        <input type="reset" />
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+
+    <!-- <form action="">
+      <p>Az ég színe?</p>
+      <label for="a1">Kék</label>
+      <input type="checkbox" name="a1" id="a1" value="true" />
+      <label for="a2">Zöld</label>
+      <input type="checkbox" name="a2" id="a2" value="false" />
+      <label for="a3">Piron</label>
+      <input type="checkbox" name="a3" id="a3" value="false" />
+      <label for="a4">Opel</label>
+      <input type="checkbox" name="a4" id="a4" value="false" />
+    </form> -->
+  </body>
+</html>
