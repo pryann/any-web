@@ -1,0 +1,47 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  /* padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 0; */
+  padding: 10px 20px 5px 0;
+
+  /* 12 tulajdonság */
+  /* border-left-color: #000;
+  border-left-width: 5px;
+  border-left-style: solid; *
+
+  /* 4 tulajdonság */
+  /* border-left: 5px solid #000;
+  border-right: 5px dashed #0f0; */
+
+  /* 3 tulajdomság, mint a pading állítható */
+  /* border-style: solid dashed dotted double;
+  border-color: #f00 #0f0 #00f #ff0;
+  border-width: 5px 10px 15px 20px; */
+
+  border: 5px solid #000;
+  margin: 10px;
+}
+
+.box--yellow {
+  background: #ff0;
+}
+
+.box--red {
+  background: #f00;
+}

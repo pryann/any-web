@@ -1,0 +1,15 @@
+html {
+  font-size: 16px;
+}
+
+.text {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  word-spacing: 1ch;
+  letter-spacing: 1px;
+  /* font-size: 1rem; */
+  line-height: 1.5rem;
+}

@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  margin: 100px;
+  background: #ffffab;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+}
+
+.box--abs {
+  background: #f00;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

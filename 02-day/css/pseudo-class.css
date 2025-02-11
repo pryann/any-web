@@ -1,0 +1,34 @@
+a {
+  border-bottom: 3px solid #df8004;
+  text-decoration: none;
+}
+
+a:link {
+  background: #ffb14b;
+  color: #fff;
+}
+
+a:visited {
+  background: #fff;
+  color: #ffb14b;
+}
+
+a:hover {
+  background: #df8004;
+}
+
+a:active {
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+input[type='text']:focus {
+  background: #ffa;
+}
+
+input[type='text']:valid {
+  background: #afa;
+}
+
+input[type='text']:invalid {
+  background: #faa;
+}

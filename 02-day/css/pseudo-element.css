@@ -1,0 +1,17 @@
+/* ol::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2rem;
+  position: relative;
+  background: red;
+} */
+
+li::before {
+  content: 'Track:';
+  margin: 0 5px 0 0;
+}
+
+li::after {
+  content: ' - instrumental metal';
+}

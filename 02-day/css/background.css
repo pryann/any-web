@@ -1,5 +1,13 @@
 .container {
-  background: #ff0 url('../img/bg-pattern.png');
+  background: #ff0 url('../img/bg-pattern.png') repeat-x center center;
   /* background: #ffff00;
   background: rgb(255, 255, 0); */
+}
+
+.background-size {
+  border: 1px solid #000;
+  background: url('../img/polygons.jpg') no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
 }

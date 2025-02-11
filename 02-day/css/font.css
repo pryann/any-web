@@ -1,0 +1,12 @@
+html {
+  font-size: 16px;
+}
+
+.paragraph {
+  /* font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.15rem;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps; */
+  font: italic small-caps bold 1.15rem/1.5rem Georgia, 'Times New Roman', Times, serif;
+}

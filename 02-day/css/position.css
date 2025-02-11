@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+}
+
+.container {
+  border: 1px solid #000;
+  position: relative;
+}
+
+.box--yellow {
+  position: relative;
+  background: #ff0;
+  z-index: 2;
+}
+
+.box--red {
+  background: #f00;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+}
