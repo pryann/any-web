@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      :root {
+        --light: #fefefe;
+        --danger: #c91212;
+        --success: #07ac30;
+      }
+
+      .text--danger {
+        color: var(--danger);
+        font-weight: bold;
+      }
+
+      .button--danger {
+        border: 1px solid var(--danger);
+        background: var(--danger);
+        color: var(--light);
+      }
+
+      .text--success {
+        color: var(--success);
+        font-weight: bold;
+      }
+
+      .button--success {
+        border: 1px solid var(--success);
+        background: var(--success);
+        color: var(--light);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="text--danger">Danger message</div>
+    <button class="button--danger">Delete</button>
+
+    <div class="text--success">Success message</div>
+    <button class="button--success">OK</button>
+  </body>
+</html>
