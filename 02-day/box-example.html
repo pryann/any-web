@@ -5,40 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-
-    <style>
-      html {
-        font-size: 16px;
-      }
-
-      body {
-        margin: 0;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      main {
-        position: relative;
-        margin: 0 auto;
-        max-width: 1280px;
-      }
-
-      .box {
-        float: left;
-        width: 25%;
-        border: 1px solid black;
-      }
-    </style>
+    <link rel="stylesheet" href="css/box-example.css" />
   </head>
 
   <body>
     <main>
-      <div class="box">box</div>
-      <div class="box">box</div>
-      <div class="box">box</div>
-      <div class="box">box</div>
+      <section class="articles">
+        <article class="acticle">
+          <header>
+            <img class="article__image" src="img/article-cover.jpg" alt="Crafiting a good" />
+          </header>
+          <section>
+            <h2>Crafiting a good</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error delectus odio veritatis quaerat adipisci fugiat eum reiciendis ipsum, iste
+              doloribus totam earum eveniet quidem quae neque esse cum tempora sunt.
+            </p>
+          </section>
+          <footer class="article__footer">
+            <a href="#">
+              <button class="article__more-button">Tovább olvasom</button>
+            </a>
+          </footer>
+        </article>
+        <article class="acticle">
+          <header>
+            <img class="article__image" src="img/article-cover.jpg" alt="Crafiting a good" />
+          </header>
+          <section>
+            <h2>Crafiting a good</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error delectus odio veritatis quaerat adipisci fugiat eum reiciendis ipsum, iste
+              doloribus totam earum eveniet quidem quae neque esse cum tempora sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, praesentium.
+              Dignissimos, optio quod doloremque voluptatum est eaque, architecto quasi, facere unde rem sint eum ea temporibus similique totam impedit velit!
+            </p>
+          </section>
+          <footer class="article__footer">
+            <a href="#">
+              <button class="article__more-button">Tovább olvasom</button>
+            </a>
+          </footer>
+        </article>
+        <acticle class="acticle">box</acticle>
+        <acticle class="acticle">box</acticle>
+      </section>
     </main>
   </body>
 </html>

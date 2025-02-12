@@ -1,0 +1,47 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.articles {
+  width: 100%;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 1rem;
+}
+
+.acticle {
+  position: relative;
+  display: table-cell;
+  background: #ebebeb;
+  padding: 1rem 1rem 3rem 1rem;
+  width: 25%;
+  border-collapse: collapse;
+}
+
+.article__image {
+  max-width: 100%;
+}
+
+.article__more-button {
+  padding: 0.5rem 1rem;
+  background: #5211d6;
+  color: #fff;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 1rem 0;
+}
